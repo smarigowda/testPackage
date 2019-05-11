@@ -5,6 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "node",
+            "request": "launch",
+            "protocol": "inspector",
+            "runtimeExecutable": "node",
+            "args": [
+                "index.js"
+            ],
+            "name": "Launch Program",
+            "disableOptimisticBPs": true
+            // "sourceMaps": true
+        },
+        {
             "name": "Launch via npm",
             "type": "node",
             "request": "launch",

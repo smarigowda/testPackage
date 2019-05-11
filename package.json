@@ -4,13 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "babel src -d build",
-    "debug": "node --nolazy --inspect-brk=9229 index.js",
-    "test": "node build/test.js"
+    "debug": "node --inspect-brk=9229 index.js"
   },
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "usingbabel": "^1.0.6"
+    "usingbabel": "^1.0.7"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
