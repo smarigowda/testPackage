@@ -11,33 +11,10 @@
             "runtimeExecutable": "npm",
             "runtimeArgs": [
                 "run-script",
-                "debug"
+                "debug",
+                "--preserve-symlinks"
             ],
             "disableOptimisticBPs": true,
-            "port": 9229
-        },
-        {
-            "type": "node",
-            "request": "launch",
-            "protocol": "inspector",
-            "runtimeExecutable": "node",
-            "args": [
-                "index.js"
-            ],
-            "name": "Launch Program",
-            "disableOptimisticBPs": true
-            // "sourceMaps": true
-        },
-        {
-            "name": "Launch via npm",
-            "type": "node",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "runtimeExecutable": "npm",
-            "runtimeArgs": [
-                "run-script",
-                "debug"
-            ],
             "port": 9229
         }
     ]

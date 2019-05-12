@@ -4,11 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "debug": "node --inspect-brk=9229 index.js"
+    "debug": "node --inspect-brk=9229 index.js",
+    "test-babel-node": "babel-node index.js",
+    "test-node": "node index.js"
   },
   "dependencies": {
+    "@babel/node": "^7.2.2",
     "@babel/polyfill": "^7.4.4",
-    "usingbabel": "^1.0.7"
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-preset-es2015": "^6.24.1",
+    "usingbabel": "^1.0.7",
+    "usingbabel7": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
