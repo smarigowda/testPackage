@@ -4,5 +4,4 @@ require("@babel/register")({
     ]
 });
 
-console.log('--- end of program...');
 require('./src/main');
